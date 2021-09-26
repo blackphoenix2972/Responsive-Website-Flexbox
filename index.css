@@ -1,0 +1,17 @@
+.flex-container {
+    
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: black 0px 0px 10px;
+}
+
+.flex-item {
+    
+    border: 2px solid black;
+    
+
+}
