@@ -81,6 +81,7 @@ body {
 
 .pricing-features {
     padding: 0px;
+    font-size: 30px;
 }
 
 .panel {
@@ -136,14 +137,29 @@ body {
     padding-top: 10px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 960px) {
     .panel {
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         background-color: white;
         padding: 20px;
-        width: 100%;
+        width: 50%;
         height: 100%;
         margin-top: 20px;
+    }
+
+    .pricing-plan {
+       
+    }
+
+    .container {
+      
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        
     }
 }
