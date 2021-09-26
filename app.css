@@ -75,7 +75,12 @@
 
 body {
     background: #506ca8;
+    margin: 0px;
 
+}
+
+.pricing-features {
+    padding: 0px;
 }
 
 .panel {
@@ -85,7 +90,7 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 5px;
     
 }
@@ -115,13 +120,30 @@ body {
 }
 
 .pricing-button {
-    background: #506ca8;
+    background: blue;
     color: #fff;
+    text-decoration: none;
+    font-size: 25px;;
     border: none;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
 }
 
+.horizontal-line {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
 
-
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+}
